@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ec7474;
+    color: #3c0505;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #dc3db4;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.name {
+    font-size: 2.5rem;
+    color: #2d8fdb;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #888;
+    margin: 15px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.main {
+    padding: 20px;
+}
+
+.biography, .work-experience, .contact {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.biography .personal-info p, 
+.biography .core-skills ul, 
+.biography .bio-text {
+    margin: 10px 0;
+}
+
+.work-experience .experience {
+    margin: 15px 0;
+}
+
+.work-experience h3 {
+    color: #333;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
